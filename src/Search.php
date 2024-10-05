@@ -2,7 +2,7 @@
 
 namespace rafaelmor\DigitalCep;//
 
-//criando classe mesmo nome do arquivo
+//criando classe mesmo nome do arquivo //////
 class Search {
     //pegando esse pacote no https://packagist.org/  nome dele é CEP do Brasil Web Service ViaCep (https://viacep.com.br)  tem que acessar viacep para pegar o link
  private $url = "https://viacep.com.br/ws/"; 
