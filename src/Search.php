@@ -1,6 +1,6 @@
 <?php
 //05-10-2024
-namespace rafaelmor\DigitalCep;//
+namespace rafaelmor\DigitalCep;//teste
 
 //criando classe mesmo nome do arquivo //////
 class Search {
