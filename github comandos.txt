@@ -1,0 +1,49 @@
+iniciando
+git config --global user.email rafaelmorsony@gmail.com
+
+git config --global user.name Rafaelmorales1982
+
+comando para verificar se deu certo
+git config --list
+
+adicionando no stage
+git add .
+
+comitar
+git commit -m "Enviando a primeira atualização"
+
+antes dar push falar onde vai ser dado o push
+git remote add origin https://github.com/Rafaelmorales1982/digital-cep-php
+
+git pull origin main
+
+para dar o push 
+git push -u origin main
+
+
+
+
+***************erros
+
+comando para verificar a chave
+ls -al ~/.ssh
+
+comando para iniciar o ssh-agent
+eval"$(ssh-agent -s)"
+
+adicione para obter a chave privada
+cat ~/.ssh/gabriel2010
+
+adicione para obter a chave pública
+cat ~/.ssh/gabriel2010.pub
+
+copier cole a chave no ssh do github
+
+ Atualizar sua branch local com git pull
+Você precisará primeiro integrar as mudanças da branch remota na sua branch local antes de tentar fazer o push. Para isso, use o comando git pull para trazer as alterações da branch main remota para a sua branch main local.
+
+Execute:
+
+bash
+Copiar código
+git pull origin main
